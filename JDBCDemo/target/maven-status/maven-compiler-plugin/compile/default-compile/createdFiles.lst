@@ -1,0 +1,7 @@
+com\cnatro\pojo\Choice.class
+com\cnatro\jdbcdemo\JDBCDemo.class
+com\cnatro\pojo\Category.class
+com\cnatro\services\jdbcUtils.class
+com\cnatro\pojo\Question.class
+com\cnatro\services\StatsServce.class
+com\cnatro\services\QuestionService.class
