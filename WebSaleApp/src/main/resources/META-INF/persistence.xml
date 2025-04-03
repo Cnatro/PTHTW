@@ -10,5 +10,12 @@
     <class>com.cnatro.pojo.ProdTag</class>
     <class>com.cnatro.pojo.Tag</class>
     <class>com.cnatro.pojo.OrderDetail</class>
+    <class>com.cnatro.controllers.ProductController</class>
+    <class>com.cnatro.formatters.CategoryFormatter</class>
+    <class>com.cnatro.controllers.ApiProductController</class>
+    <class>com.cnatro.repositories.UserRepository</class>
+    <class>com.cnatro.controllers.UserController</class>
+    <class>com.cnatro.configs.SecurityWebApplicationInitializer</class>
+    <class>com.cnatro.services.Impl.UserServicesImpl</class>
   </persistence-unit>
 </persistence>
