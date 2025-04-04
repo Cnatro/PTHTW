@@ -28,9 +28,8 @@ import org.springframework.web.servlet.handler.HandlerMappingIntrospector;
 @EnableTransactionManagement
 @ComponentScan(basePackages = {
     "com.cnatro.controllers",
-    "com.cnatro.repositories",
-    "com.cnatro.services"
-})
+    "com.cnatro.services",
+    "com.cnatro.repositories",})
 public class SpringSecurityConfigs {
 
     @Autowired
@@ -64,7 +63,7 @@ public class SpringSecurityConfigs {
         return new HandlerMappingIntrospector();
     }
 
-     @Bean
+    @Bean
     public Cloudinary cloudinary() {
         Cloudinary cloudinary
                 = new Cloudinary(ObjectUtils.asMap(

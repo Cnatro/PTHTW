@@ -7,7 +7,7 @@ package com.cnatro.repositories.impl;
 import com.cnatro.pojo.User;
 import com.cnatro.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import jakarta.data.repository.Repository;
+import org.springframework.stereotype.Repository;
 import jakarta.persistence.Query;
 import org.hibernate.Session;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
